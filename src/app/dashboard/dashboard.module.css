@@ -1,0 +1,98 @@
+.wrapper {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.nav button {
+  margin-left: 12px;
+  background: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Upload */
+.uploadSection {
+  margin-bottom: 20px;
+}
+
+.uploadBtn {
+  background: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Table */
+.table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tableHeader,
+.row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  padding: 14px 20px;
+  align-items: center;
+}
+
+.tableHeader {
+  background: #f3f4f6;
+  font-weight: bold;
+}
+
+.row {
+  border-top: 1px solid #eee;
+}
+
+/* Status colors */
+.uploading {
+  color: orange;
+  font-weight: bold;
+}
+
+.processing {
+  color: blue;
+  font-weight: bold;
+}
+
+.done {
+  color: green;
+  font-weight: bold;
+}
+
+/* Actions */
+.actions button {
+  margin-right: 8px;
+  background: #e5e7eb;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete {
+  background: #ef4444;
+  color: white;
+}
+
+.search{
+    color: black;
+    font-weight: 600;
+}

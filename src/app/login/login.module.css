@@ -1,0 +1,79 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 🔥 beautiful gradient background */
+  background: linear-gradient(135deg, #4f46e5, #9333ea, #ec4899);
+}
+
+.card {
+  width: 360px;
+  padding: 32px;
+  background: white;
+  border-radius: 14px;
+
+  /* soft shadow */
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+
+  text-align: center;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 22px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.15);
+}
+
+.button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+
+  /* gradient button */
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  color: white;
+
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+.footer {
+  margin-top: 14px;
+  font-size: 13px;
+}
+.error{
+    color: red
+}
